@@ -1,0 +1,83 @@
+.contactform-container {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-top: 0.5rem solid rgb(0, 161, 219);
+  padding-top: 5rem;
+}
+
+.contact-form-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.contactform-header {
+  margin: 0;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+
+.contactform-header-two {
+  margin: 0;
+  font-size: 1.1rem;
+  color: rgb(68, 68, 68);
+}
+
+.form-input {
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  border: 0.1rem solid rgb(187, 186, 186);
+}
+
+.form-input:focus {
+  outline: 0.1rem solid rgb(0, 161, 219);
+}
+
+.form-comment {
+  height: 5rem;
+  resize: none;
+  border-radius: 0.2rem;
+  font-family: "Lato";
+  font-size: 1rem;
+  border: 0.1rem solid rgb(187, 186, 186);
+}
+
+.form-comment:focus {
+  outline: 0.1rem solid rgb(0, 161, 219);
+}
+
+.submit-request {
+  width: 100%;
+  margin-top: 0.2rem;
+  cursor: pointer;
+  font-family: "Lato";
+  font-size: 1.1rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+  background-color: white;
+  border: 0.1rem solid rgb(187, 186, 186);
+  color: black;
+}
+
+.submit-request:hover {
+  transition: 0.1s ease-in;
+  background-color: rgb(0, 161, 219);
+  border: none;
+}
+
+.submit-request:focus {
+  transition: 0.1s ease-in;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 161, 219);
+}
+
+.submit-request:active {
+  transition: 0.1s;
+  background-color: rgb(0, 161, 219);
+}
